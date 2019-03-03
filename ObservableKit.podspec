@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.platform           = :ios, "9.3"
   s.source             = { :git => "https://github.com/limadeveloper/ObservableKit.git", :tag => "#{s.version}" }
   s.source_files       = "Framework/ObservableKit/Source/*.{swift}"
-  s.swift_version      = "3.0"
+  s.swift_version      = "4.0"
 end

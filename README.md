@@ -10,7 +10,7 @@ ObservableKit is the easiest way to observe values in Swift.
 ## Requirements
 
 - iOS 9.3+
-- Swift 3.0+
+- Swift 4.0+
 
 ## Installation
 
