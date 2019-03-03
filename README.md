@@ -3,7 +3,6 @@
 [![GitHub release](https://img.shields.io/github/release/limadeveloper/ObservableKit.svg)](https://github.com/limadeveloper/ObservableKit/releases)
 [![Build Status](https://travis-ci.com/limadeveloper/ObservableKit.svg?branch=master)](https://travis-ci.com/limadeveloper/ObservableKit)
 [![CocoaPods](https://img.shields.io/badge/Cocoa%20Pods-✓-4BC51D.svg?style=flat)](https://cocoapods.org/pods/ObservableKit)
-[![License](https://img.shields.io/cocoapods/l/ObservableKit.svg?style=flat)](https://raw.githubusercontent.com/limadeveloper/ObservableKit/master/LICENSE)
 
 ObservableKit is the easiest way to observe values in Swift.
 
@@ -104,4 +103,4 @@ private func loadImage() {
 
 ## License
 
-**ObservableKit** is under MIT license. See the [LICENSE](LICENSE) file for more info.
+**ObservableKit** is under MIT license. See the [LICENSE](https://raw.githubusercontent.com/limadeveloper/ObservableKit/master/LICENSE) file for more info.
