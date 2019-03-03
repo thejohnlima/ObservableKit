@@ -1,7 +1,7 @@
 # ObservableKit
 
 [![GitHub release](https://img.shields.io/github/release/limadeveloper/ObservableKit.svg)](https://github.com/limadeveloper/ObservableKit/releases)
-[![Build Status](https://travis-ci.org/limadeveloper/ObservableKit.svg?branch=master)](https://travis-ci.org/limadeveloper/ObservableKit)
+[![Build Status](https://travis-ci.com/limadeveloper/ObservableKit.svg?branch=master)](https://travis-ci.com/limadeveloper/ObservableKit)
 [![CocoaPods](https://img.shields.io/badge/Cocoa%20Pods-✓-4BC51D.svg?style=flat)](https://cocoapods.org/pods/ObservableKit)
 [![License](https://img.shields.io/cocoapods/l/ObservableKit.svg?style=flat)](https://raw.githubusercontent.com/limadeveloper/ObservableKit/master/LICENSE)
 
