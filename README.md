@@ -3,6 +3,7 @@
 [![GitHub release](https://img.shields.io/github/release/limadeveloper/ObservableKit.svg)](https://github.com/limadeveloper/ObservableKit/releases)
 [![Build Status](https://travis-ci.com/limadeveloper/ObservableKit.svg?branch=master)](https://travis-ci.com/limadeveloper/ObservableKit)
 [![CocoaPods](https://img.shields.io/badge/Cocoa%20Pods-✓-4BC51D.svg?style=flat)](https://cocoapods.org/pods/ObservableKit)
+[![GitHub repo size](https://img.shields.io/github/repo-size/limadeveloper/ObservableKit.svg)](https://github.com/limadeveloper/ObservableKit)
 
 ObservableKit is the easiest way to observe values in Swift.
 
