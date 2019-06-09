@@ -23,6 +23,7 @@ xcuserdata/
 *.xcscmblueprint
 .DS_Store
 .DS_Store?
+.vascode
 coverage
 
 ## Obj-C/Swift specific
