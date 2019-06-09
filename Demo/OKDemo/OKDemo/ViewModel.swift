@@ -12,7 +12,7 @@ class ViewModel {
 
   // MARK: - Properties
   let model: Model
-  let observable: OKObservable<OKState<Data>> = OKObservable(OKState.loading)
+  let observable: OKObservable<OKState<Data, Error>> = OKObservable(OKState.loading)
 
   // MARK: - Initializers
   init() {
