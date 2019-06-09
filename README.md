@@ -47,7 +47,7 @@ import ObservableKit
 Setup ObservableKit in your ViewModel:
 
 ```Swift
-let observable: OKObservable<OKState<Data>> = OKObservable(OKState.loading)
+let observable: OKObservable<OKState<Data, Error>> = OKObservable(OKState.loading)
 
 func fetchImage() {
   let url = URL(string: model.image)!
