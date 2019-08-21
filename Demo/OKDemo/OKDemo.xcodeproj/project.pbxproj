@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,8 +12,6 @@
 		8258E192222B4DD000DA5DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8258E190222B4DD000DA5DF0 /* Main.storyboard */; };
 		8258E194222B4DD300DA5DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8258E193222B4DD300DA5DF0 /* Assets.xcassets */; };
 		8258E197222B4DD300DA5DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8258E195222B4DD300DA5DF0 /* LaunchScreen.storyboard */; };
-		8258E1A1222B4E7900DA5DF0 /* OKState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258E19F222B4E7800DA5DF0 /* OKState.swift */; };
-		8258E1A2222B4E7900DA5DF0 /* OKObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258E1A0222B4E7800DA5DF0 /* OKObservable.swift */; };
 		8258E1A4222B4EEC00DA5DF0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258E1A3222B4EEC00DA5DF0 /* ViewModel.swift */; };
 		8258E1A6222B4F5300DA5DF0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258E1A5222B4F5300DA5DF0 /* Model.swift */; };
 /* End PBXBuildFile section */
@@ -26,8 +24,6 @@
 		8258E193222B4DD300DA5DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8258E196222B4DD300DA5DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8258E198222B4DD300DA5DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8258E19F222B4E7800DA5DF0 /* OKState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OKState.swift; sourceTree = "<group>"; };
-		8258E1A0222B4E7800DA5DF0 /* OKObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OKObservable.swift; sourceTree = "<group>"; };
 		8258E1A3222B4EEC00DA5DF0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		8258E1A5222B4F5300DA5DF0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,18 +66,8 @@
 				8258E195222B4DD300DA5DF0 /* LaunchScreen.storyboard */,
 				8258E198222B4DD300DA5DF0 /* Info.plist */,
 				8258E193222B4DD300DA5DF0 /* Assets.xcassets */,
-				8258E19E222B4E7800DA5DF0 /* Source */,
 			);
 			path = OKDemo;
-			sourceTree = "<group>";
-		};
-		8258E19E222B4E7800DA5DF0 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				8258E19F222B4E7800DA5DF0 /* OKState.swift */,
-				8258E1A0222B4E7800DA5DF0 /* OKObservable.swift */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,7 +98,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = limadeveloper;
+				ORGANIZATIONNAME = thejohnlima;
 				TargetAttributes = {
 					8258E188222B4DD000DA5DF0 = {
 						CreatedOnToolsVersion = 10.2;
@@ -120,7 +106,7 @@
 				};
 			};
 			buildConfigurationList = 8258E184222B4DD000DA5DF0 /* Build configuration list for PBXProject "OKDemo" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -156,8 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8258E1A4222B4EEC00DA5DF0 /* ViewModel.swift in Sources */,
-				8258E1A2222B4E7900DA5DF0 /* OKObservable.swift in Sources */,
-				8258E1A1222B4E7900DA5DF0 /* OKState.swift in Sources */,
 				8258E1A6222B4F5300DA5DF0 /* Model.swift in Sources */,
 				8258E18F222B4DD000DA5DF0 /* ViewController.swift in Sources */,
 				8258E18D222B4DD000DA5DF0 /* AppDelegate.swift in Sources */,
@@ -313,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.OKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = thejohnlima.OKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.OKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = thejohnlima.OKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

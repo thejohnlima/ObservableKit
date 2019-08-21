@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -105,7 +105,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = limadeveloper;
+				ORGANIZATIONNAME = thejohnlima;
 				TargetAttributes = {
 					8258E16F222B448800DA5DF0 = {
 						CreatedOnToolsVersion = 10.2;
@@ -114,7 +114,7 @@
 				};
 			};
 			buildConfigurationList = 8258E16A222B448800DA5DF0 /* Build configuration list for PBXProject "ObservableKit" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -294,7 +294,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.ObservableKit;
+				PRODUCT_BUNDLE_IDENTIFIER = thejohnlima.ObservableKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -321,7 +321,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.ObservableKit;
+				PRODUCT_BUNDLE_IDENTIFIER = thejohnlima.ObservableKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
