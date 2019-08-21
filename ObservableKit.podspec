@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name               = "ObservableKit"
-  s.version            = "1.0.2"
+  s.version            = "1.0.3"
   s.summary            = "ObservableKit is the easiest way to observe values in Swift"
   s.requires_arc       = true
   s.homepage           = "https://github.com/limadeveloper/ObservableKit"
