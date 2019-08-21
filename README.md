@@ -33,7 +33,7 @@ After that, put the url in the field: `https://github.com/limadeveloper/Observab
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ObservableKit', '~> 1.0'
+pod 'ObservableKit'
 ```
 
 and run `pod install`
