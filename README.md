@@ -9,12 +9,23 @@
 
 ObservableKit is the easiest way to observe values in Swift.
 
-## Requirements
+## ❗️Requirements
 
 - iOS 9.3+
-- Swift 4.0+
+- Swift 5.1+
 
-## Installation
+## ⚒ Installation
+
+### Swift Package Manager
+
+**ObservableKit** is available through [SPM](https://developer.apple.com/videos/play/wwdc2019/408/). To install
+it, follow the above steps:
+
+```script
+Open Xcode project > File > Swift Packages > Add Package Dependecy
+```
+
+After that, put the url in the field: `https://github.com/limadeveloper/ObservableKit.git`
 
 ### CocoaPods
 
@@ -27,15 +38,7 @@ pod 'ObservableKit', '~> 1.0'
 
 and run `pod install`
 
-### Manual
-
-Just copy source folder to your project.
-
-```script
-Framework > ObservableKit > Source
-```
-
-## How to use
+## 🎓 How to use
 
 Import library in your swift file:
 
@@ -98,12 +101,12 @@ private func loadImage() {
 }
 ```
 
-## Communication
+## 🙋🏻‍  Communication
 
 - If you found a bug, open an issue.
 - If you have a feature request, open an issue.
 - If you want to contribute, submit a pull request. 👨🏻‍💻
 
-## License
+## 📜 License
 
 **ObservableKit** is under MIT license. See the [LICENSE](https://raw.githubusercontent.com/limadeveloper/ObservableKit/master/LICENSE) file for more info.
