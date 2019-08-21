@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/thejohnlima"
   s.platform           = :ios, "9.3"
   s.source             = { :git => "https://github.com/limadeveloper/ObservableKit.git", :tag => "#{s.version}" }
-  s.source_files       = "Framework/ObservableKit/Source/*.{swift}"
+  s.source_files       = "Package/ObservableKit/Sources/ObservableKit/*.{swift}"
   s.swift_version      = "5.0"
 end

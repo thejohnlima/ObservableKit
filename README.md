@@ -19,7 +19,7 @@ ObservableKit is the easiest way to observe values in Swift.
 ### Swift Package Manager
 
 **ObservableKit** is available through [SPM](https://developer.apple.com/videos/play/wwdc2019/408/). To install
-it, follow the above steps:
+it, follow the steps:
 
 ```script
 Open Xcode project > File > Swift Packages > Add Package Dependecy
