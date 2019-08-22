@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import ObservableKit
 
 class ViewModel {
 

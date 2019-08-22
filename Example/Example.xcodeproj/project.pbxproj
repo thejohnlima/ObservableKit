@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B9A8BC4230E3AB0005C8E76 /* ObservableKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9A8BC3230E3AB0005C8E76 /* ObservableKit */; };
 		8258E18D222B4DD000DA5DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258E18C222B4DD000DA5DF0 /* AppDelegate.swift */; };
 		8258E18F222B4DD000DA5DF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258E18E222B4DD000DA5DF0 /* ViewController.swift */; };
 		8258E192222B4DD000DA5DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8258E190222B4DD000DA5DF0 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B9A8BC4230E3AB0005C8E76 /* ObservableKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,9 @@
 			dependencies = (
 			);
 			name = Example;
+			packageProductDependencies = (
+				1B9A8BC3230E3AB0005C8E76 /* ObservableKit */,
+			);
 			productName = OKDemo;
 			productReference = 8258E189222B4DD000DA5DF0 /* Example.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +119,9 @@
 				Base,
 			);
 			mainGroup = 8258E180222B4DD000DA5DF0;
+			packageReferences = (
+				1B9A8BC2230E3AB0005C8E76 /* XCRemoteSwiftPackageReference "ObservableKit" */,
+			);
 			productRefGroup = 8258E18A222B4DD000DA5DF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -346,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B9A8BC2230E3AB0005C8E76 /* XCRemoteSwiftPackageReference "ObservableKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/limadeveloper/ObservableKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B9A8BC3230E3AB0005C8E76 /* ObservableKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B9A8BC2230E3AB0005C8E76 /* XCRemoteSwiftPackageReference "ObservableKit" */;
+			productName = ObservableKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8258E181222B4DD000DA5DF0 /* Project object */;
 }
