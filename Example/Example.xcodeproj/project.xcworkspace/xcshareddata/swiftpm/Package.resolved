@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ObservableKit",
+        "repositoryURL": "https://github.com/limadeveloper/ObservableKit.git",
+        "state": {
+          "branch": null,
+          "revision": "fdd778b95b19d6a5568e55b0a06f5be1b0d22cfa",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
