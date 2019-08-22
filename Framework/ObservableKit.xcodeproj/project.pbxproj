@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BCDB987230D65FB00D045B2 /* OKObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDB985230D65FB00D045B2 /* OKObservable.swift */; };
-		1BCDB988230D65FB00D045B2 /* OKState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDB986230D65FB00D045B2 /* OKState.swift */; };
+		1B466ECE230E362700DD8833 /* OKObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B466ECC230E362700DD8833 /* OKObservable.swift */; };
+		1B466ECF230E362700DD8833 /* OKState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B466ECD230E362700DD8833 /* OKState.swift */; };
 		8258E175222B448800DA5DF0 /* ObservableKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8258E173222B448800DA5DF0 /* ObservableKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BCDB985230D65FB00D045B2 /* OKObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OKObservable.swift; path = ../../../Package/ObservableKit/Sources/ObservableKit/OKObservable.swift; sourceTree = "<group>"; };
-		1BCDB986230D65FB00D045B2 /* OKState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OKState.swift; path = ../../../Package/ObservableKit/Sources/ObservableKit/OKState.swift; sourceTree = "<group>"; };
+		1B466ECC230E362700DD8833 /* OKObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OKObservable.swift; path = ../../Sources/ObservableKit/OKObservable.swift; sourceTree = "<group>"; };
+		1B466ECD230E362700DD8833 /* OKState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OKState.swift; path = ../../Sources/ObservableKit/OKState.swift; sourceTree = "<group>"; };
 		8258E170222B448800DA5DF0 /* ObservableKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObservableKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8258E173222B448800DA5DF0 /* ObservableKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObservableKit.h; sourceTree = "<group>"; };
 		8258E174222B448800DA5DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,20 +50,12 @@
 		8258E172222B448800DA5DF0 /* ObservableKit */ = {
 			isa = PBXGroup;
 			children = (
-				8258E173222B448800DA5DF0 /* ObservableKit.h */,
 				8258E174222B448800DA5DF0 /* Info.plist */,
-				8258E17B222B464D00DA5DF0 /* Source */,
+				8258E173222B448800DA5DF0 /* ObservableKit.h */,
+				1B466ECD230E362700DD8833 /* OKState.swift */,
+				1B466ECC230E362700DD8833 /* OKObservable.swift */,
 			);
 			path = ObservableKit;
-			sourceTree = "<group>";
-		};
-		8258E17B222B464D00DA5DF0 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				1BCDB985230D65FB00D045B2 /* OKObservable.swift */,
-				1BCDB986230D65FB00D045B2 /* OKState.swift */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BCDB987230D65FB00D045B2 /* OKObservable.swift in Sources */,
-				1BCDB988230D65FB00D045B2 /* OKState.swift in Sources */,
+				1B466ECE230E362700DD8833 /* OKObservable.swift in Sources */,
+				1B466ECF230E362700DD8833 /* OKState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
