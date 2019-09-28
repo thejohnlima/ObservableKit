@@ -1,10 +1,10 @@
 # ObservableKit
 
-[![GitHub release](https://img.shields.io/github/release/limadeveloper/ObservableKit.svg)](https://github.com/limadeveloper/ObservableKit/releases)
-[![Build Status](https://travis-ci.com/limadeveloper/ObservableKit.svg?branch=master)](https://travis-ci.com/limadeveloper/ObservableKit)
+[![GitHub release](https://img.shields.io/github/release/thejohnlima/ObservableKit.svg)](https://github.com/thejohnlima/ObservableKit/releases)
+[![Build Status](https://travis-ci.com/thejohnlima/ObservableKit.svg?branch=master)](https://travis-ci.com/thejohnlima/ObservableKit)
 [![CocoaPods](https://img.shields.io/badge/Cocoa%20Pods-✓-4BC51D.svg?style=flat)](https://cocoapods.org/pods/ObservableKit)
-[![GitHub repo size](https://img.shields.io/github/repo-size/limadeveloper/ObservableKit.svg)](https://github.com/limadeveloper/ObservableKit)
-[![License](https://img.shields.io/github/license/limadeveloper/ObservableKit.svg)](https://raw.githubusercontent.com/limadeveloper/ObservableKit/master/LICENSE)
+[![GitHub repo size](https://img.shields.io/github/repo-size/thejohnlima/ObservableKit.svg)](https://github.com/thejohnlima/ObservableKit)
+[![License](https://img.shields.io/github/license/thejohnlima/ObservableKit.svg)](https://raw.githubusercontent.com/thejohnlima/ObservableKit/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/ObservableKit.svg?style=flat)](https://developer.apple.com/ios/)
 
 ObservableKit is the easiest way to observe values in Swift.
@@ -25,7 +25,7 @@ it, follow the steps:
 Open Xcode project > File > Swift Packages > Add Package Dependecy
 ```
 
-After that, put the url in the field: `https://github.com/limadeveloper/ObservableKit.git`
+After that, put the url in the field: `https://github.com/thejohnlima/ObservableKit.git`
 
 ### CocoaPods
 
@@ -109,4 +109,4 @@ private func loadImage() {
 
 ## 📜 License
 
-**ObservableKit** is under MIT license. See the [LICENSE](https://raw.githubusercontent.com/limadeveloper/ObservableKit/master/LICENSE) file for more info.
+**ObservableKit** is under MIT license. See the [LICENSE](https://raw.githubusercontent.com/thejohnlima/ObservableKit/master/LICENSE) file for more info.
