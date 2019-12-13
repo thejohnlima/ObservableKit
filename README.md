@@ -6,6 +6,7 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/thejohnlima/ObservableKit.svg)](https://github.com/thejohnlima/ObservableKit)
 [![License](https://img.shields.io/github/license/thejohnlima/ObservableKit.svg)](https://raw.githubusercontent.com/thejohnlima/ObservableKit/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/ObservableKit.svg?style=flat)](https://developer.apple.com/ios/)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/thejohnlima)
 
 ObservableKit is the easiest way to observe values in Swift.
 
