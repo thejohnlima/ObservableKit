@@ -1,14 +1,33 @@
-# ObservableKit
+<h1 align="center">ObservableKit</h1>
 
-[![GitHub release](https://img.shields.io/github/release/thejohnlima/ObservableKit.svg)](https://github.com/thejohnlima/ObservableKit/releases)
-[![Build Status](https://travis-ci.com/thejohnlima/ObservableKit.svg?branch=master)](https://travis-ci.com/thejohnlima/ObservableKit)
-[![CocoaPods](https://img.shields.io/badge/Cocoa%20Pods-✓-4BC51D.svg?style=flat)](https://cocoapods.org/pods/ObservableKit)
-[![GitHub repo size](https://img.shields.io/github/repo-size/thejohnlima/ObservableKit.svg)](https://github.com/thejohnlima/ObservableKit)
-[![License](https://img.shields.io/github/license/thejohnlima/ObservableKit.svg)](https://raw.githubusercontent.com/thejohnlima/ObservableKit/master/LICENSE)
-[![Platform](https://img.shields.io/cocoapods/p/ObservableKit.svg?style=flat)](https://developer.apple.com/ios/)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/thejohnlima)
+<p align="center">
+ <a href="https://github.com/thejohnlima/ObservableKit/releases">
+  <img src="https://img.shields.io/github/v/release/thejohnlima/ObservableKit?style=for-the-badge">
+ </a>
+ <a href="https://github.com/thejohnlima/ObservableKit/actions">
+  <img src="https://img.shields.io/github/workflow/status/thejohnlima/ObservableKit/CI/master?style=for-the-badge">
+ </a>
+ <a href="https://cocoapods.org/pods/ObservableKit">
+  <img src="https://img.shields.io/badge/Cocoa%20Pods-✓-4BC51D.svg?style=for-the-badge">
+ </a><br>
+ <a href="https://github.com/thejohnlima/ObservableKit">
+  <img src="https://img.shields.io/github/repo-size/thejohnlima/ObservableKit.svg?style=for-the-badge">
+ </a>
+ <a href="https://raw.githubusercontent.com/thejohnlima/ObservableKit/master/LICENSE">
+  <img src="https://img.shields.io/github/license/thejohnlima/ObservableKit.svg?style=for-the-badge">
+ </a>
+ <a href="https://developer.apple.com/ios/">
+  <img src="https://img.shields.io/cocoapods/p/ObservableKit?style=for-the-badge">
+ </a>
+ <a href="https://developer.apple.com/swift/">
+  <img src="https://img.shields.io/badge/Swift-5-blue.svg?style=for-the-badge">
+ </a>
+ <a href="https://patreon.com/thejohnlima">
+  <img src="https://img.shields.io/badge/donate-patreon-yellow.svg?style=for-the-badge">
+ </a>
+</p>
 
-ObservableKit is the easiest way to observe values in Swift.
+**ObservableKit** is the easiest way to observe values in Swift.
 
 ## ❗️Requirements
 
