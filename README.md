@@ -121,7 +121,7 @@ private func loadImage() {
 }
 ```
 
-## 🙋🏻‍  Communication
+## 🙋🏻‍ Communication
 
 - If you found a bug, open an issue.
 - If you have a feature request, open an issue.
